@@ -1,0 +1,19 @@
+/* Custom style for active category button in Catalog */
+.category-btn.active {
+  background-color: #4f46e5; /* indigo-600 */
+  color: white;
+  font-weight: 600;
+}
+.category-btn:not(.active) {
+  background-color: white;
+  color: #4f46e5; /* indigo-600 */
+  border: 1px solid #e5e7eb; /* gray-200 */
+}
+/* Simple animation for page transitions */
+.page-section {
+  animation: fadeIn 0.5s ease-in-out;
+}
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
